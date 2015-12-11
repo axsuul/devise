@@ -113,7 +113,8 @@ Devise.setup do |config|
   # confirming their account. For instance, if set to 2.days, the user will be
   # able to access the website for two days without confirming their account,
   # access will be blocked just in the third day. Default is 0.days, meaning
-  # the user cannot access the website without confirming their account.
+  # the user cannot access the website without confirming their account. Setting
+  # to nil will allow unconfirmed access for an unlimited time.
   # config.allow_unconfirmed_access_for = 2.days
 
   # A period that the user is allowed to confirm their account before their
